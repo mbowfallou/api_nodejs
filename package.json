@@ -1,0 +1,17 @@
+{
+  "name": "api_node",
+  "version": "1.0.0",
+  "description": "API REST pour acceder aux données des Etudiants Lecture/Ecriture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Fallou MBOW",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3"
+  }
+}
